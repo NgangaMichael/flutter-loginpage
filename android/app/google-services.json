@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "1049324260711",
+    "firebase_url": "https://loginauth-4c935-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "loginauth-4c935",
+    "storage_bucket": "loginauth-4c935.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1049324260711:android:0f8ab89085138c469773c2",
+        "android_client_info": {
+          "package_name": "com.example.loginpage"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1049324260711-tnjihdoq7t3oihh9qqgcmha75bkgnpf0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBKod2gTQPWHrbPYnpEqKRZlRVdYkBqHvU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1049324260711-tnjihdoq7t3oihh9qqgcmha75bkgnpf0.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1049324260711-n9o02mfujdcbpqk5h9itlln6t12lqufh.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.loginpage"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
