@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:loginpage/components/my_button.dart';
 import 'package:loginpage/components/my_textfield.dart';
 import 'package:loginpage/components/square_tile.dart';
+import 'package:loginpage/services/auth_service.dart';
 
 
 class RegisterPage extends StatefulWidget {
@@ -159,12 +160,16 @@ class _RegisterPageState extends State<RegisterPage> {
         
               Row(
                 mainAxisAlignment: MainAxisAlignment.center,
-                children: const [
-                  SquareTile(imagePath: 'lib/images/gglelogo.png'),
+                children: [
+                  SquareTile(imagePath: 'lib/images/gglelogo.png',
+                    onTap: () => AuthService().signInWithGoogle(),
+                  ),
         
                   SizedBox(width: 10),
         
-                  SquareTile(imagePath: 'lib/images/applelogo.png'),
+                  SquareTile(imagePath: 'lib/images/applelogo.png',
+                    onTap: () {},
+                  ),
                 ],
               ),
         
