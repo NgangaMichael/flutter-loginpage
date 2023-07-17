@@ -103,11 +103,11 @@ class _LoginPageState extends State<LoginPage> {
         
               const SizedBox(height: 10),
         
-              Padding(
-                padding: const EdgeInsets.symmetric(horizontal: 25.0),
+              const Padding(
+                padding: EdgeInsets.symmetric(horizontal: 25.0),
                 child: Row(
                   mainAxisAlignment: MainAxisAlignment.end,
-                  children: const [
+                  children: [
                     Text('Forgot password?', 
                       style: TextStyle(
                         color: Color.fromRGBO(56, 55, 55, 1)
@@ -126,10 +126,10 @@ class _LoginPageState extends State<LoginPage> {
         
               const SizedBox(height: 20),
         
-              Padding(
-                padding: const EdgeInsets.symmetric(horizontal: 25.0),
+              const Padding(
+                padding: EdgeInsets.symmetric(horizontal: 25.0),
                 child: Row(
-                  children: const [
+                  children: [
                     Expanded(
                       child: Divider(
                         thickness: 0.5,
@@ -162,7 +162,7 @@ class _LoginPageState extends State<LoginPage> {
                   onTap: () => AuthService().signInWithGoogle(),
                   ),
         
-                  SizedBox(width: 10),
+                  const SizedBox(width: 10),
         
                   SquareTile(imagePath: 'lib/images/applelogo.png',
                   onTap: () {
